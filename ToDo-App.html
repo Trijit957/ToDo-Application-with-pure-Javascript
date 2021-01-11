@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo-App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+		.checked {
+               text-decoration: line-through;
+         }
+     
+	</style>
+	<link rel="stylesheet" type="text/css" href="styles/ToDo-App.css">
+
+</head>
+<body>
+	<div class="header">
+		
+			<h1 class="header__title">To-Do List Application</h1>
+		    <p class="header__subtitle">Organize Your Tasks Smartly!</p>
+		
+		
+	</div>
+
+
+	
+	<form class="todo-form" autocomplete="off">
+		<input type="text" id="input">
+        <button type="submit" id="submit">Add</button>
+	</form>
+	
+    <ol id="todoList">
+    	<h2 class="msg">Your Tasks:</h2>
+    </ol>
+ 
+    <script src="ToDo-App.js"></script>
+</body>
+</html>
